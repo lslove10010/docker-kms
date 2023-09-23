@@ -73,5 +73,5 @@
   VOLUME ["${APP_ROOT}/var"]
 
 # :: Start
-  USER docker
+  USER 10014
   ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
